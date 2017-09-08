@@ -77,9 +77,9 @@ var F8App = React.createClass({
   },
 
   render: function() {
-    if (!this.props.isLoggedIn) {
-      return <LoginScreen />;
-    }
+    // if (!this.props.isLoggedIn) {
+    //   return <LoginScreen />;
+    // }
     return (
       <View style={styles.container}>
         <StatusBar
